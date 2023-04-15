@@ -11,11 +11,18 @@ public class HW6 {
         Scanner scan=new Scanner (System.in);
         System.out.println("Please enter a number");
         int number= scan.nextInt();
-
-        for (int i = 1; i <number; i++) {
-
+        int calc =0;
+        for (int i = 1; i <=number; i++) {
+        if(number%i==0){
+            calc++;
         }
-        System.out.println("A given number is not prime");
+        }
+        if(calc>2||number<=1){
+            System.out.println("A given number is not prime");
+        }else if (calc<=2&&number>1){
+            System.out.println("A given number is prime");
+        }
+
         }
 
 
