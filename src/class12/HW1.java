@@ -13,7 +13,7 @@ public class HW1 {
         int middleChar=name.length()/2;
 
         if(!name.isEmpty()){
-           if(name.length()%2==1&&name.length()>3){
+           if(name.length()%2==1&&name.length()>=3){
                System.out.println(name.charAt(middleChar));
            }
         }
