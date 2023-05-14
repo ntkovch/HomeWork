@@ -6,8 +6,8 @@ public class CreditCard {
     Create 2 subclasses: Visa and AX. In AX class override method calculate interest.
     Call the method by creating an object of each of the three classes.
      */
-    int balance;
-    int interest;
+    double balance;
+    double interest;
 
     void interest(int bal) {
         balance=bal;
